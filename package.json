@@ -1,0 +1,15 @@
+{
+    "name": "serm-ver",
+    "version": "1.0.0",
+    "description": "Semantic Version removes the immediate connection between human emotions and version numbers, stricktly following the semantic versioning specification",
+    "main": "index.js",
+    "author": "Mrudul Kandoth",
+    "private":"true",
+    "license": "GPL",
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/git",
+        "@semantic-release/npm"
+    ]
+}
