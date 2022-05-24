@@ -5,14 +5,5 @@
     "main": "index.js",
     "author": "Mrudul Kandoth",
     "private":"true",
-    "license": "GPL",
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/git",
-        ["@semantic-release/npm", {
-            "npmPublish": false
-            }
-        ]
-    ]
+    "license": "GPL"
 }
