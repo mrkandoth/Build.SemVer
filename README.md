@@ -26,4 +26,4 @@ semantic-release uses the commit messages to determine the type of changes in th
 ## Known issues and fixes
 
 ### Semantic release does not update package.json and the release artifact
-* Fix: Make sure the use the **.releaserc** file at the root of the repo in the same order, ie, /npm before the /git in the plugins
+* Fix: Make sure to use the **.releaserc** file at the root of the repo in the same order, ie, /npm before the /git in the plugins
