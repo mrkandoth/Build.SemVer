@@ -23,7 +23,7 @@ semantic-release uses the commit messages to determine the type of changes in th
 | **refactor:** A code change that neither fixes a bug nor adds a feature | Patch Release   | 0.0.1  |
 | **chore:** Changes to the build process or auxiliary tools and libraries| Patch Release   | 0.0.1  |
 
-## Known issues and fixes
+:warning: ## Known issues and fixes :warning:
 
 ### Semantic release does not update package.json and the release artifact
 * Fix: Make sure to use the **.releaserc** file at the root of the repo in the same order, ie, /npm before the /git in the plugins
