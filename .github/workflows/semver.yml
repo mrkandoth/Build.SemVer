@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: npm install -g semantic-release @semantic-release/git
+        run: npm install -g semantic-release@21.0.2 @semantic-release/git
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
